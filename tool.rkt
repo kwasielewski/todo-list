@@ -185,7 +185,7 @@
             (new vertical-panel%
                  [parent new-panel]
                  [stretchable-height #f]
-                 [style '(deleted)]))
+                 [style '(vscroll deleted)]))
           (define panel-percents (box '(99/100 1/100)))
           (define (update-percents!)
             (if (unbox show-todos?)
